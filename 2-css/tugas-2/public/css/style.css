@@ -1,0 +1,82 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background: url("../img/pattern.jpg");
+  font-family: 'Slabo 27px', serif;
+}
+
+header {
+  -webkit-box-shadow: 0px 2px 12px -2px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 2px 12px -2px rgba(0,0,0,0.75);
+  box-shadow: 0px 2px 12px -2px rgba(0,0,0,0.75);
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  position: fixed;
+  margin-top: -80px;
+  width: 100%;
+  z-index: 2;
+}
+
+nav ul {
+  display: inline-flex;
+  list-style-type: none;
+}
+
+nav ul a {
+  padding-right: 20px;
+  font-weight: bold;
+}
+
+nav ul a:link {
+  color: blue;
+}
+
+nav ul a:visited {
+  color: blue;
+}
+
+nav ul a:hover {
+  color: black;
+}
+
+nav ul a:active {
+  color: black;
+}
+
+section {
+  position: relative;
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  background-color: white;
+}
+
+section h1 {
+  text-align: center;
+  padding-top: 20px;
+}
+
+#article-list {
+  padding: 0px 20px 20px;
+  margin-bottom: 20px;
+}
+
+#article-list article {
+  border-bottom: 1px solid black;
+  padding: 10px;
+}
+
+footer {
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+  background-color: black;
+}
+
+footer h5 {
+  margin: 0px;
+  color: white;
+  line-height: 3.5;
+}
