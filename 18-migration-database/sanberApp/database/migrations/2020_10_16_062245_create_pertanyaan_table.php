@@ -21,7 +21,7 @@ class CreatePertanyaanTable extends Migration
             $table->timestamp('diperbaharui')->nullable();
             $table->unsignedBigInteger('jawaban_tepat_id');
             $table->unsignedBigInteger('profil_id');
-            $table->foreign('jawaban_tepat_id')->references('id')->on('jawaban');
+            // $table->foreign('jawaban_tepat_id')->references('id')->on('jawaban');
             $table->foreign('profil_id')->references('id')->on('profil');
         });
     }
